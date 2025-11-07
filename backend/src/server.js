@@ -4,6 +4,10 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const connectDB = require("./config/db");
 
+const productRoutes = require("./routes/productRoutes");
+const cartRoutes = require("./routes/cartRoutes");
+const checkoutRoutes = require("./routes/checkoutRoutes");
+
 const app = express();
 
 app.use(cors());
@@ -11,9 +15,11 @@ app.use(bodyParser.json());
 
 connectDB();
 
-app.use((req, res) => {
-  res.status(404).json({ error: "Route not found" });
-});
+app.use("/api/products", productRoutes);
+app.use("/api/cart", cartRoutes);
+app.use("/api/checkout", checkoutRoutes);
+
+app.get("/api/health", (req, res) => res.json({ ok: true }));
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
