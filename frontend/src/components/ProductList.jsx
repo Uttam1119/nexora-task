@@ -10,7 +10,7 @@ const ProductList = () => {
 
   const handleAdd = async (productId) => {
     await addToCart({ productId, qty: 1 });
-    alert("✅ Added to cart!");
+    alert("Added to cart!");
   };
 
   return (
