@@ -182,6 +182,26 @@ Frontend runs by default on [http://localhost:5173](http://localhost:5173)
 
 ---
 
+## Screenshots
+
+### ProductList Page
+
+![ProductList](https://raw.githubusercontent.com/Uttam1119/nexora-task/main/screenshots/productList.png "productList")
+
+### Cart Page
+
+![ProductList](https://raw.githubusercontent.com/Uttam1119/nexora-task/main/screenshots/cart.png "cart")
+
+### Checkout Page
+
+![ProductList](https://raw.githubusercontent.com/Uttam1119/nexora-task/main/screenshots/checkout.png "checkout")
+
+### Receipt Page
+
+![Receipt](https://raw.githubusercontent.com/Uttam1119/nexora-task/main/screenshots/receipt.png "receipt")
+
+---
+
 ## Error Handling
 
 - **Empty Cart Prevention** — checkout not allowed if cart is empty.
