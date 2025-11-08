@@ -1,7 +1,8 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:4000/api" });
-
+const API = axios.create({
+  baseURL: import.meta.env.VITE_API_BASE_URL,
+});
 export const getProducts = () => API.get("/products");
 export const getCart = () => API.get("/cart");
 export const addToCart = (data) => API.post("/cart", data);
