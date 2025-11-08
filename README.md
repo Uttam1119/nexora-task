@@ -190,11 +190,11 @@ Frontend runs by default on [http://localhost:5173](http://localhost:5173)
 
 ### Cart Page
 
-![ProductList](https://raw.githubusercontent.com/Uttam1119/nexora-task/main/screenshots/cart.png "cart")
+![Cart](https://raw.githubusercontent.com/Uttam1119/nexora-task/main/screenshots/cart.png "cart")
 
 ### Checkout Page
 
-![ProductList](https://raw.githubusercontent.com/Uttam1119/nexora-task/main/screenshots/checkout.png "checkout")
+![Checkout](https://raw.githubusercontent.com/Uttam1119/nexora-task/main/screenshots/checkout.png "checkout")
 
 ### Receipt Page
 
