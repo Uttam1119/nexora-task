@@ -13,22 +13,22 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <nav className="bg-gray-800 text-white p-4 flex justify-between items-center">
+    <nav className="bg-gradient-to-r from-pink-100 via-purple-100 to-pink-100 shadow-md p-4 flex justify-between items-center">
       <button
         onClick={() => navigate("/")}
-        className="font-bold text-xl flex items-center gap-2 hover:text-blue-300 transition"
+        className="font-extrabold text-2xl flex items-center gap-2 text-green-700 hover:text-green-800 transition"
       >
-        🛒 <span>VibeCart</span>
+        🛍️ <span>VibeCart</span>
       </button>
 
-      <div className="space-x-6 text-sm font-medium">
-        <Link to="/" className="hover:text-blue-300 transition">
+      <div className="space-x-8 text-base font-medium text-gray-800">
+        <Link to="/" className="hover:text-purple-600 transition">
           Products
         </Link>
-        <Link to="/cart" className="hover:text-blue-300 transition">
+        <Link to="/cart" className="hover:text-purple-600 transition">
           Cart
         </Link>
-        <Link to="/checkout" className="hover:text-blue-300 transition">
+        <Link to="/checkout" className="hover:text-purple-600 transition">
           Checkout
         </Link>
       </div>
