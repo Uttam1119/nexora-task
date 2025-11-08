@@ -1,11 +1,11 @@
-# 🛒 Mock E-Commerce Cart (Full-Stack Assignment)
+# Mock E-Commerce Cart (Full-Stack Assignment)
 
 A simple full-stack **E-Commerce Shopping Cart** built using **React**, **Node.js/Express**, and **MongoDB**.  
 It allows users to browse products, add/remove items from the cart, and perform a mock checkout process that generates a receipt.
 
 ---
 
-## 🚀 Features
+## Features
 
 - _Add to Cart / Remove from Cart_
 - _Automatic Total Calculation_
@@ -16,7 +16,7 @@ It allows users to browse products, add/remove items from the cart, and perform 
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -31,7 +31,7 @@ It allows users to browse products, add/remove items from the cart, and perform 
 
 ---
 
-## ⚙️ Project Structure
+## Project Structure
 
 ```
 
@@ -75,7 +75,7 @@ nexora-task/
 
 ---
 
-## 🧩 Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Clone the Repository
 
@@ -122,15 +122,15 @@ Frontend runs by default on [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 🧠 API Endpoints
+## API Endpoints
 
-### 🛍️ **Products**
+### **Products**
 
 | Method | Endpoint        | Description                  |
 | ------ | --------------- | ---------------------------- |
 | GET    | `/api/products` | Fetch all available products |
 
-### 🛒 **Cart**
+### **Cart**
 
 | Method | Endpoint        | Description                |
 | ------ | --------------- | -------------------------- |
@@ -139,7 +139,7 @@ Frontend runs by default on [http://localhost:5173](http://localhost:5173)
 | PUT    | `/api/cart/:id` | Update a cart item         |
 | DELETE | `/api/cart/:id` | Remove a product from cart |
 
-### 💳 **Checkout**
+### **Checkout**
 
 | Method | Endpoint        | Description                                    |
 | ------ | --------------- | ---------------------------------------------- |
@@ -171,7 +171,7 @@ Frontend runs by default on [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 🧾 Mock Checkout Flow
+## Mock Checkout Flow
 
 1. User adds products to the cart.
 2. Opens the **Checkout Page**.
@@ -182,7 +182,7 @@ Frontend runs by default on [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## ⚡ Error Handling
+## Error Handling
 
 - **Empty Cart Prevention** — checkout not allowed if cart is empty.
 - **Form Validation** — name & email required and validated.
